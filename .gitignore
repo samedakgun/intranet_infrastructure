@@ -1,0 +1,111 @@
+# macOS clutter
+.DS_Store
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python tooling
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+pyrightconfig.json
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+coverage.xml
+.coverage*
+htmlcov/
+
+# Django / Flask / FastAPI settings
+instance/
+.webassets-cache
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Node.js artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+turbo
+.pnpm-store/
+.npm/
+.yarn/
+
+# Frontend build outputs
+dist/
+.vite/
+coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+.history/
+*.swp
+*.swo
+
+# OS/filesystem metadata
+.Trash-*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project-specific caches & artifacts
+intranet-backend/venv/
+intranet-backend/.pytest_cache/
+intranet-backend/.mypy_cache/
+intranet-backend/.ruff_cache/
+intranet-backend/.coverage
+intranet-backend/.coverage.*
+intranet-backend/.env
+intranet-backend/.env.*
+
+intranet-frontend/node_modules/
+intranet-frontend/.eslintcache
+intranet-frontend/.vite/
+intranet-frontend/dist/
+intranet-frontend/coverage/
+intranet-frontend/.env
+intranet-frontend/.env.*
+
+entegre/__pycache__/
+
+# Generated data & models
+intranet-backend/src/database/*.db
+intranet-backend/src/routes/storage/
+intranet-backend/src/routes/plate/*.pt
+*.sqlite3
