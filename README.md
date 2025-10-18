@@ -38,6 +38,9 @@ python3 create_test_data.py
 ### Uygulamayi calistirma
 
 ```bash
+cd intranet_backend
+```
+```bash
 python3 src/main.py
 ```
 
